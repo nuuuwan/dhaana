@@ -2,7 +2,7 @@ import Link from "../atoms/Link.js";
 import "./CharityView.css";
 
 export default function CharityView(props) {
-  const { charity } = props;
+  const { charity, iCharity } = props;
   const { name, url, can_donate_offline, can_donate_online } = charity;
 
   const renderDonateOffline =
@@ -24,7 +24,10 @@ export default function CharityView(props) {
 
   return (
     <div className="div-charity-view">
-      <div className="div-charity-name">{name}</div>
+      <div className="div-charity-name">
+        <span>{`${iCharity + 1}. `}</span>      
+        {name}
+      </div>
       {renderDonateOnline}
       {renderDonateOffline}
       <Link href={url} label="Website" />
