@@ -22,7 +22,7 @@ export default class HomePage extends Component {
     }
     return (
       <div className="div-home-page">
-        <h1>Registered Charities in Sri Lanka</h1>
+        <h1>Charities in Sri Lanka</h1>
         <CharityListView charityList={charityList} />
       </div>
     );
