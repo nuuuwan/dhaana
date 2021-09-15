@@ -1,18 +1,30 @@
 .div-charity-view {
-	margin: 12px;
-	padding: 12px;
+	display: inline-block;
+	vertical-align: top;
 	width: 240px;
 	min-height: 90px;
-	background: #fcfcfc;
-	border-radius: 12px;
-	display: inline-block;
-	vertical-align:top;
+	margin: 12px;
+	padding: 12px;
 	border: 1px solid lightgray;
+	border-radius: 12px;
+	background: #fcfcfc;
 }
 
 .div-charity-name {
-	padding-bottom: 24px;
+	padding-bottom: 6px;
 	color: gray;
+}
+
+.div-description {
+	padding-bottom: 6px;
+	font-size: 12px;
+}
+
+.div-gazette-date {
+	padding-top: 12px;
+	color: lightgray;
+	font-style: italic;
+	font-size: 12px;
 }
 
 .a-charity-url {

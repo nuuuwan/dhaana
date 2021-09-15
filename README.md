@@ -21,3 +21,4 @@
   *  (2021-09-15-1142) Removed test
   *  (2021-09-15-1213) Updated display format
   *  (2021-09-15-1215) Added local_scripts/edit_data.sh
+  *  (2021-09-15-1226) Added description - without data
