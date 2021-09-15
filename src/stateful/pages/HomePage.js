@@ -2,6 +2,8 @@ import { Component } from "react";
 
 import Data from "../../core/Data.js";
 
+import CharityListView from '../../nonstate/molecules/CharityListView.js';
+
 export default class HomePage extends Component {
   constructor(props) {
     super(props);
@@ -18,6 +20,6 @@ export default class HomePage extends Component {
     if (!charityList) {
       return "Loading...";
     }
-    return JSON.stringify(charityList);
+    return <CharityListView charityList={charityList} />;
   }
 }
