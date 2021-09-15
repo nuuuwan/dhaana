@@ -1,7 +1,8 @@
+import './Link.css';
 export default function Link(props) {
   const { href, label } = props;
   return (
-    <a href={href} target="_blank" rel="noreferrer">
+    <a className="a-link" href={href} target="_blank" rel="noreferrer">
       {label}
     </a>
   );
