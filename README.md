@@ -9,3 +9,4 @@
   * Cleaned README
   * Lint options
   * Initial files
+  * Added data
