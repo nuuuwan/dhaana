@@ -1,7 +1,23 @@
 import { Component } from "react";
 
+import Data from '../../core/Data.js';
+
 export default class HomePage extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { charityList: null};
+  }
+
+  async componentDidMount() {
+    const charityList = await Data.getCharityList();
+    this.setState({charityList});
+  }
+
   render() {
-    return "HomePage";
+    const {charityList} = this.state;
+    if (!charityList) {
+      return 'Loading...';
+    }
+    return JSON.stringify(charityList);
   }
 }
