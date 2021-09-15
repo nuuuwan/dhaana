@@ -2,7 +2,7 @@ import { Component } from "react";
 
 import Data from "../../core/Data.js";
 
-import CharityListView from '../../nonstate/molecules/CharityListView.js';
+import CharityListView from "../../nonstate/molecules/CharityListView.js";
 
 export default class HomePage extends Component {
   constructor(props) {
@@ -20,6 +20,11 @@ export default class HomePage extends Component {
     if (!charityList) {
       return "Loading...";
     }
-    return <CharityListView charityList={charityList} />;
+    return (
+      <div className="div-home-page">
+        <h1>Registered Charities in Sri Lanka</h1>
+        <CharityListView charityList={charityList} />
+      </div>
+    );
   }
 }
