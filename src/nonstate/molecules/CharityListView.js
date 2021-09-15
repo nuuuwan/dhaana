@@ -1,5 +1,7 @@
 import CharityView from "./CharityView.js";
 
+import "./CharityListView.css";
+
 export default function CharityListView(props) {
   const { charityList } = props;
 

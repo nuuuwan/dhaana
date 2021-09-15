@@ -1,19 +1,20 @@
 .a-link {
-	margin: 12px;
-	padding: 12px;
-	border-radius: 12px;
-	background: #f8f8f8;
+	margin: 6px;
+	padding: 6px;
+	border-radius: 6px;
+	background: #f4f4f4;
 	color: gray;
 	text-decoration: none;
+	font-size: 9px;
 }
 
 .a-link:hover {
 	background: gray;
-	color: #f8f8f8;
+	color: #f4f4f4;
 }
 
 .a-link-highlight {
-	background: #f8f8f8;
+	background: #f4f4f4;
 	color: orange;
 }
 
