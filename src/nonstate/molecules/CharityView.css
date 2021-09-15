@@ -1,13 +1,10 @@
 .div-charity-view {
 	margin: 12px;
 	padding: 12px;
-	border-radius: 12px;
-	background: #fcfcfc;
 }
 
 .div-charity-name {
-	padding-bottom: 12px;
-	color: lightgray;
+	padding-bottom: 24px;
 	font-size: larger;
 }
 

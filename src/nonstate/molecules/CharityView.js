@@ -7,19 +7,27 @@ export default function CharityView(props) {
 
   const renderDonateOffline =
     can_donate_offline !== "NO" ? (
-      <Link href={can_donate_offline} label="Donate Offline" />
+      <Link
+        href={can_donate_offline}
+        label="Donate Offline"
+        linkType="highlight"
+      />
     ) : null;
   const renderDonateOnline =
     can_donate_online !== "NO" ? (
-      <Link href={can_donate_online} label="Donate Online" />
+      <Link
+        href={can_donate_online}
+        label="Donate Online"
+        linkType="highlight"
+      />
     ) : null;
 
   return (
     <div className="div-charity-view">
       <div className="div-charity-name">{name}</div>
-      <Link href={url} label="Website" />
       {renderDonateOnline}
       {renderDonateOffline}
+      <Link href={url} label="Website" />
     </div>
   );
 }

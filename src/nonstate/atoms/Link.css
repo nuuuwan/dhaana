@@ -1,13 +1,23 @@
 .a-link {
-  text-decoration: none;
-  margin: 12px;
-  padding: 12px;
-  color: orange;
-  background: white;
-  border-radius: 12px;
+	margin: 12px;
+	padding: 12px;
+	border-radius: 12px;
+	background: #f8f8f8;
+	color: gray;
+	text-decoration: none;
 }
 
 .a-link:hover {
-  background: orange;
-  color: white;
+	background: gray;
+	color: #f8f8f8;
+}
+
+.a-link-highlight {
+	background: #f8f8f8;
+	color: orange;
+}
+
+.a-link-highlight:hover {
+	background: orange;
+	color: #f8f8f8;
 }
