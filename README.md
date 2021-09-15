@@ -10,3 +10,4 @@
   *  (2021-09-15-1021) Added CharityListView - basic
   *  (2021-09-15-1022) Added heading
   *  (2021-09-15-1038) Draft view
+  *  (2021-09-15-1053) Added Link component

@@ -1,22 +1,22 @@
 .div-charity-view {
-  padding: 12px;
-  margin: 12px;
-  background: #fcfcfc;
-  border-radius: 12px;
+	margin: 12px;
+	padding: 12px;
+	border-radius: 12px;
+	background: #fcfcfc;
 }
 
 .div-charity-name {
-  font-size: larger;
-  color: lightgray;
-  padding-bottom: 12px;
+	padding-bottom: 12px;
+	color: lightgray;
+	font-size: larger;
 }
 
 .a-charity-url {
-  text-decoration: none;
-  color: gray;
+	color: gray;
+	text-decoration: none;
 }
 
 .a-charity-url:hover {
-  text-decoration: none;
-  color: orange;
+	color: orange;
+	text-decoration: none;
 }
