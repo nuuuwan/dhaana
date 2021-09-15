@@ -25,7 +25,7 @@ export default function CharityView(props) {
   return (
     <div className="div-charity-view">
       <div className="div-charity-name">
-        <span>{`${iCharity + 1}. `}</span>      
+        <span>{`${iCharity + 1}. `}</span>
         {name}
       </div>
       {renderDonateOnline}

@@ -7,7 +7,7 @@ export default function CharityListView(props) {
     <div className="div-charity-list-view">
       {charityList.map(function (charity, iCharity) {
         const key = `charity-${iCharity}`;
-        return <CharityView key={key} charity={charity} iCharity={iCharity}/>;
+        return <CharityView key={key} charity={charity} iCharity={iCharity} />;
       })}
     </div>
   );
