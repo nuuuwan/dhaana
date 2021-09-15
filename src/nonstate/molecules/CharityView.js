@@ -1,3 +1,4 @@
+import Link from "../atoms/Link.js";
 import "./CharityView.css";
 
 export default function CharityView(props) {
@@ -5,23 +6,18 @@ export default function CharityView(props) {
   const { name, url, can_donate_offline, can_donate_online } = charity;
 
   const renderDonateOffline =
-    can_donate_offline !== "NO" ? <div>{can_donate_offline}</div> : null;
+    can_donate_offline !== "NO" ? (
+      <Link href={can_donate_offline} label="Donate Offline" />
+    ) : null;
   const renderDonateOnline =
-    can_donate_online !== "NO" ? <div>{can_donate_online}</div> : null;
+    can_donate_online !== "NO" ? (
+      <Link href={can_donate_online} label="Donate Online" />
+    ) : null;
 
   return (
     <div className="div-charity-view">
       <div className="div-charity-name">{name}</div>
-      <div className="div-charity-url">
-        <a
-          className="a-charity-url"
-          href={url}
-          target="_blank"
-          rel="noreferrer"
-        >
-          {url}
-        </a>
-      </div>
+      <Link href={url} label="Website" />
       {renderDonateOnline}
       {renderDonateOffline}
     </div>

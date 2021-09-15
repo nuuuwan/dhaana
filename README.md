@@ -11,3 +11,4 @@
   *  (2021-09-15-1022) Added heading
   *  (2021-09-15-1038) Draft view
   *  (2021-09-15-1053) Added Link component
+  *  (2021-09-15-1056) Added Link
