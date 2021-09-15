@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/dhaana/static/css/main.2e6b679a.chunk.css",
-    "main.js": "/dhaana/static/js/main.ed19ee95.chunk.js",
-    "main.js.map": "/dhaana/static/js/main.ed19ee95.chunk.js.map",
-    "runtime-main.js": "/dhaana/static/js/runtime-main.9bc234cd.js",
-    "runtime-main.js.map": "/dhaana/static/js/runtime-main.9bc234cd.js.map",
+    "main.css": "/dhaana/static/css/main.2cd882e6.chunk.css",
+    "main.js": "/dhaana/static/js/main.939c2015.chunk.js",
+    "main.js.map": "/dhaana/static/js/main.939c2015.chunk.js.map",
+    "runtime-main.js": "/dhaana/static/js/runtime-main.bc822fdd.js",
+    "runtime-main.js.map": "/dhaana/static/js/runtime-main.bc822fdd.js.map",
     "static/js/2.84479b02.chunk.js": "/dhaana/static/js/2.84479b02.chunk.js",
     "static/js/2.84479b02.chunk.js.map": "/dhaana/static/js/2.84479b02.chunk.js.map",
-    "static/js/3.6a115442.chunk.js": "/dhaana/static/js/3.6a115442.chunk.js",
-    "static/js/3.6a115442.chunk.js.map": "/dhaana/static/js/3.6a115442.chunk.js.map",
+    "static/js/3.01390714.chunk.js": "/dhaana/static/js/3.01390714.chunk.js",
+    "static/js/3.01390714.chunk.js.map": "/dhaana/static/js/3.01390714.chunk.js.map",
     "index.html": "/dhaana/index.html",
-    "static/css/main.2e6b679a.chunk.css.map": "/dhaana/static/css/main.2e6b679a.chunk.css.map",
+    "static/css/main.2cd882e6.chunk.css.map": "/dhaana/static/css/main.2cd882e6.chunk.css.map",
     "static/js/2.84479b02.chunk.js.LICENSE.txt": "/dhaana/static/js/2.84479b02.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.9bc234cd.js",
+    "static/js/runtime-main.bc822fdd.js",
     "static/js/2.84479b02.chunk.js",
-    "static/css/main.2e6b679a.chunk.css",
-    "static/js/main.ed19ee95.chunk.js"
+    "static/css/main.2cd882e6.chunk.css",
+    "static/js/main.939c2015.chunk.js"
   ]
 }
