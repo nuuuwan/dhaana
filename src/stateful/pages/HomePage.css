@@ -1,0 +1,14 @@
+.div-header {
+  font-size: 36px;
+position: fixed;
+top: 0;
+padding: 12px;
+height: 36px;
+width: 100%;
+background: white;
+}
+
+.div-body {
+  padding-top: 54px;
+
+}

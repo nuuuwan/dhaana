@@ -15,3 +15,4 @@
   *  (2021-09-15-1058) Added Link.css
   *  (2021-09-15-1103) Added LinkType
   *  (2021-09-15-1108) Various minor css
+  *  (2021-09-15-1115) Added fixed header
